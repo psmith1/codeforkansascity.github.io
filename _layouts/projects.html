@@ -1,6 +1,6 @@
 {% include header.html %}
 <div class="row main-row">
-	<div>
+	<div class="col-md-10">
   	{{ content }}
   	<h2>Updates</h2>
   		{% for post in site.categories.updates %}
@@ -18,7 +18,7 @@
     	{% endfor %}
   		{% endfor %}
 	</div>
-	<div>
+	<div class="col-md-4">
 		<div class="list-group">
 			<h2 class="first needs">Needs</h2>
 			<button type="button" class="btn btn-success btn-block">I want to Help!</button>
