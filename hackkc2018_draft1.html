@@ -19,7 +19,7 @@ custom_js:
     function init() {
         var mapOptions = {
             center: new google.maps.LatLng(39.0929229, -94.5860675),
-            zoom: 15,
+            zoom: 17,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
@@ -43,7 +43,7 @@ custom_js:
         var mapElement = document.getElementById('umkc-map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-            ['Think Big Partners', 'Think Big Partners', 'undefined', 'undefined', 'undefined', 39.0929229, -94.5860675, 'https://mapbuildr.com/assets/img/markers/default.png']
+            ['Plexpod Crossroads', 'Think Big Partners', 'undefined', 'undefined', 'undefined', 39.0929115, -94.5860336, 'https://mapbuildr.com/assets/img/markers/default.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] == 'undefined') {
@@ -71,7 +71,7 @@ custom_js:
             } else {
                 markericon = locations[i][7];
             }
-            marker = new google.maps.Marker({
+            var marker = new google.maps.Marker({
                 icon: markericon,
                 position: new google.maps.LatLng(locations[i][5], locations[i][6]),
                 map: map,
@@ -97,17 +97,17 @@ custom_js:
         <img class="responsive-img" src="../images/civic_hacking_logo_two.png" width="600"/>
         <p class="hero-event-date">
             <span>October 13-14, 2018</span>
-            <a href="#">#hackKC</a>
-            <a href="#">@codeforkc</a>
+            <!-- <a href="#">#hackKC</a>
+            <a href="#">@codeforkc</a> -->
         </p>
     </div>
     <div class="hero-event-overview" style="background: #000;">
         <p class="container">Join local designers, developers, doers and thinkers with a passion for making local government work better through technology.</p>
     </div>
 </div>
-<div class="content-panel">
+<div id="learnDiv" class="content-panel">
     <q>
-        Change only happens when ordinary people get involved!
+        Change only happens when ordinary people get involved! 
     </q>
     <div class="container">
         <p>Join the Kansas City Code Brigade for an exciting two day hackathon where we write apps that solve community problems. Do you love coding? How does working on open source while solving practical problems sound to you? Then join us for this exciting two day event!</p>
@@ -205,6 +205,7 @@ custom_js:
         </div>
     </div>
 </div>
+<!--
 <div class="content-panel supporters">
     <div class="container">
         <h3 class="content-panel-header">Supporters</h3>
@@ -214,6 +215,12 @@ custom_js:
         </div>
     </div>
 </div>
+-->
 
+<script type="text/javascript">
+    $('#learnMoreLink').click(function(){
+        $('#learnDiv').toggle();
+    });
 
+</script>
 
