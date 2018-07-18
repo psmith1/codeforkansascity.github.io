@@ -7,6 +7,6 @@ $(document).ready(function() {
       theme: 'tooltipster-light',
       trigger: 'hover',
       contentAsHTML: true,
-      maxWidth: 300,
+      maxWidth: 250,
     });
 });
