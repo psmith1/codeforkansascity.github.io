@@ -1,12 +1,12 @@
-$(document).on('click', '.collapsible-panel .header', function() {
-  $(this).closest('.collapsible-panel').toggleClass('collapsible-panel-extended');
+$(document).hover('.collapsible-panel .header', function() {
+  $(this).closest('.collapsible-panel').show('collapsible-panel-extended');
 });
 
 $(document).ready(function() {
     $('.interactive-tooltip').tooltipster({
       theme: 'tooltipster-light',
-      trigger: 'click',
+      trigger: 'hover',
       contentAsHTML: true,
-      maxWidth: 500,
+      maxWidth: 300,
     });
 });
