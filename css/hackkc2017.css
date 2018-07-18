@@ -13,6 +13,43 @@ h3 small {
   color: #595959;
 }
 
+/*add CSS styles */
+#umkc-map {
+  box-sizing: border-box;
+  box-shadow: 2px 6px 20px rgba(0,0,0,0.55);
+  border-radius: 5px;
+}
+
+#learnDiv {
+  display: none;
+}
+
+#learnMoreLink {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(39,66,66,0.76);
+  border-radius: 5px;
+  box-shadow: 3px 0px 8px rgba(225,225,225,0.75);
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+button:hover {
+  color: #333;
+  background-color: white;
+  border: none;
+}
+
+/* Bootstrap override cont'd */
+
 .button-center {
   text-align: center;
   padding-bottom: 1em;
@@ -26,17 +63,29 @@ h3 small {
 }
 
 .hero .container {
-  background: rgba(0, 0, 0, 0.75);
-  padding-top: 10px;
-  border-radius: 0;
+  background: rgba(0, 0, 0, 0.45);
+  padding-top: 20px;
+  border-radius: 10px;
+  width: 70%;
+
 }
+
+@media (max-width: 768px)
+.hero .container {
+    border-radius: 10px;
+}
+
 .responsive-img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .hero p {
   color: #ffffff;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 .hero .registration-btn {
@@ -46,8 +95,10 @@ h3 small {
 
 .hero-event-overview {
   margin-top: 25%;
-  padding: 10px 20px;
+  padding: 5px 5px;
   background: #000;
+  width: 100%;
+  text-align: center;
 }
 
 .hero-event-date {
@@ -56,6 +107,14 @@ h3 small {
 
 .eventbrite-registration {
   margin-top: 10px;
+}
+
+.hero-event-date span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-event-date > * {
@@ -87,10 +146,10 @@ h3 small {
 }
 
 .event-info {
-  background-color: #595759;
+  background-color: #274242;
   color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .event-info-container {
@@ -112,7 +171,8 @@ h3 small {
 .projects {
   background: #274242;
   color: #ffffff;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .collapsible-panel {
