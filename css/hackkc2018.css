@@ -114,11 +114,28 @@ h3 small {
   margin-bottom: 20px;
 }
 
+.content-panel a {
+  color: #f0f0f0;
+}
+
 .content-panel-header {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
   width: 100%;
+}
+
+
+.c4kc-info {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #595759;
+}
+
+.c4kc-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .event-info {
