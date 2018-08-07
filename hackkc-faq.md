@@ -22,7 +22,7 @@ Absolutely! This event is geared to those who have an idea for a Civic project a
 
 ## Will there be food? 
 
-Yes! We will provide lunch to all attendees. We will also have coffee and light snacks in the morning. 
+Yes! We will provide lunch to all attendees. Coffee and breakfast will be provided in the morning. 
 
 We May not have any gluten free food.
 
