@@ -34,9 +34,7 @@ For them burrning questions:
 ## Where is this event being held?
 
  ### Plexpod Crossroads
- ### 1712 Main St.
- ### Kansas City, MO 64108
- 
+ ### 1712 Main St. Kansas City, MO 64108
 
 ## Where can I park?
 
