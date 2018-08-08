@@ -19,7 +19,7 @@ We ask that you bring any references that will help you develop your project. A 
 
 ## I'm interested in this event, but I do NOT know how to code... Can I still come?
 
-Absolutely! This event is geared to those who have an idea for a Civic project and want to improve their community with technology. This is a NON CODING workshop.  We are focusing on the project design and fleshing out your idea so that coders and jump on your project in the future for Hack KC
+Absolutely! This event is geared to those who have an idea for a Civic project and want to improve their community with technology. This is a NON CODING workshop.  We are focusing on the project design and fleshing out your idea so that coders can jump on your project at Hack KC in October.
 
 
 ## Will there be food? 
@@ -37,8 +37,10 @@ Click this link [right Here](https://docs.google.com/forms/d/e/1FAIpQLSeRGU__67R
 
 ````
  Plexpod Crossroads
- 1712 Main St. Kansas City, MO 64108
+ 1712 Main St. Kansas City, MO 64108 
+  
 ````
+Entrance in the alley on the West side of the building. [Click here for west door entrance directions!](https://goo.gl/maps/hsBMJdcdEh72)
 
 ## Where can I park?
 
