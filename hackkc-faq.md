@@ -40,4 +40,4 @@ For them burrning questions:
 
 ### There will be free street parking near the building. Baltimore and Wyandotte tends to have several places to park.  
 
-### Do NOT park on the lot attached to the building
+### Do NOT park on the lot attached to the building. That is a private lot and you will be ticketed.
