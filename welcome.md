@@ -13,7 +13,7 @@ schedule: weekly from 6:00-9:00 pm on Wednesdays
 homepage-url: http://codeforkc.org
 google-group-url: https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva
 meetup-url: http://www.meetup.com/KCBrigade/
-slack-invite-url: https://join.slack.com/t/codeforkc/shared_invite/enQtNDA3ODgyMjMyMTQ5LTA0MzY5MjQxMGJhMjIzYzEwYzA2ODgzZjhlOTc5NjUwNmVhZjQxYzRiOWM2NDJkNDI2ZDQxNzNkZDM3ZjI4ZjA
+slack-invite-url: https://join.slack.com/t/codeforkc/shared_invite/enQtNDI1NjExNTM3NTkwLWZiYWJkOWY3ZDFjZGNmNzQ0YTFiNjIxYWY1MmZlNWQzZmM0ZDcyNjc0NzNhNDBlNjZjMjI1OWYzMDBjZTc3MTE
 slack-url: https://codeforkc.slack.com
 twitter-hashtag: #codeforkc
 captain1: Paul Barham
