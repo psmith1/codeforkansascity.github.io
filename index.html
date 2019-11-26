@@ -189,12 +189,59 @@ custom_js:
 
         <p class="lead">We meet every week on Monday night to hack, socialize and learn. Join us on <a target="_blank" href="https://www.meetup.com/KCBrigade/">Meetup</a> for the
             latest info. Upcoming meetings:</p>
+			
+		<!-- RSS Feed -->
+		<noscript>
+		<a href="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fwww.meetup.com%2FKCBrigade%2Fevents%2Frss%2F&num=3&targ=y&utf=y&html=y">View RSS feed</a>
+		</noscript>
+		
+		<table style="font-size: 18px">
+			<tr>
+				<td style="width:50%">
+					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fwww.meetup.com%2FKCBrigade%2Fevents%2Frss%2F&num=3&targ=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+				</td>
+				<td style="width:50%">
+					<!--<script>
+						document.write('<div class="rss-box">');
+						document.write('<ul class="rss-items">');
+						var d1 = new Date();
+						d1 = new Date(d1.setDate(d1.getDate() + 1 - d1.getDay())); // +1 for Monday
+						document.write('<li class="rss-item">' + d1.toDateString() + '</li>')
+						var d2 = new Date();
+						d2 = new Date(d2.setDate(d2.getDate() + 7 + 1 - d2.getDay()));
+						document.write('<li class="rss-item">' + d2.toDateString() + '</li>')
+						var d3 = new Date();
+						d3 = new Date(d3.setDate(d3.getDate() + 14 + 1 - d2.getDay()));
+						document.write('<li class="rss-item">' + d3.toDateString() + '</li>')
+						document.write('</ul></div>');
+					</script>-->
+					
+					<script>
+						document.write('<div class="rss-box">');
+						var d1 = new Date();
+						d1 = new Date(d1.setDate(d1.getDate() + 1 - d1.getDay())); // +1 for Monday
+						document.write(d1.toDateString() + '<br/>')
+						var d2 = new Date();
+						d2 = new Date(d2.setDate(d2.getDate() + 7 + 1 - d2.getDay()));
+						document.write(d2.toDateString() + '<br/>')
+						var d3 = new Date();
+						d3 = new Date(d3.setDate(d3.getDate() + 14 + 1 - d2.getDay()));
+						document.write(d3.toDateString() + '<br/>')
+						document.write('</div>');
+					</script>
+				</td>
+			</tr>
+		</table>
 
-        <ul class="lead">
+
+
+
+
+        <!--<ul class="lead">
 <li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzpbxb/">RSVP</a> - November 18th, 6:00PM - Learn Night</li>
 <li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzpbhc/">RSVP</a> - November 25th, 6:00PM - Hack Night</li>
 <li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzqbdb/">RSVP</a> - December 2nd, 6:00PM - Pitch Night</li>
-        </ul>
+        </ul>-->
 
         <!--<h1 class="index" style="text-align: center">Thanks to our Sponsors</h1>
 
