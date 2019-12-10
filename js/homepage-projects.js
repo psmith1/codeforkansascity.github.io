@@ -49,7 +49,7 @@ Tabletop.init({                                             // Requires js/table
             row += '        <div class="menu-category ">';
             row += '            <div class="card">';
             row += '                <div class="card-header">';
-            row += '                    <a href="#"><span style="text-align: center;"';
+            row += '                    <a href="' + worksheetRow['GitHub']+ '" target="_blank"><span style="text-align: center;"';
             row += '                                                            class="card-title">' + worksheetRow['Title'] + '</span></a>';
             row += '                </div>';
             row += '                <div style="background-color: #fff; padding-top: 4px;" class="card-content">';

@@ -87,26 +87,28 @@ custom_js:
     }
 
     .card .card-action p {
-        color: #ffab40;
+        color: #111;
         margin-right: 16px;
-        transition: color 0.3s ease;
+        /*transition: color 0.3s ease;*/
         text-transform: uppercase;
     }
     .card .card-action a {
-        color: #ffab40;
+        /*color: #111;*/
         margin-right: 16px;
-        transition: color 0.3s ease;
+		font-weight: bold;
+        /*transition: color 0.3s ease;*/
         text-transform: uppercase;
     }
 
     .card .card-action a:hover {
-        color: #ffd8a6;
-        text-decoration: none;
+        /*color: #ffd8a6;*/
+        /*text-decoration: none;*/
         background-color: #fff;
+		font-weight: bold;
     }
 
     /* http://stackoverflow.com/questions/19196082/bootstrap-how-to-stack-divs-of-different-heights
-       and refered to http://www.bootply.com/85737
+       and referred to http://www.bootply.com/85737
     */
 
     .row2 {
@@ -125,6 +127,12 @@ custom_js:
     }
 
 </style>
+
+<script>
+if (window.location.href == "http://codeforkc.org") {
+	window.location.replace("https://codeforkc.org");
+};
+</script>
 
 <div class="row">
     <div class="col-lg-12">
@@ -170,7 +178,7 @@ custom_js:
 
         <h3><a href="http://communitykc.org" target="_blank">CommunityKC Mapping Tool</a></h3>
 
-        <p style="padding-bottom: 1em; margin-bottom: 1em;"><a href="http://communitykc.org" target="_blank"><img name="groups" class="featurette-image pull-left"
+        <p style="padding-bottom: 1em; margin-bottom: 1em;"><a href="http://communitykc.org" target="_blank"><img style="width: 100%; max-width: 1000px;" name="groups" class="featurette-image pull-left"
                                                                  src="images/community-kc-2.gif"
                                                                  alt="Screen shot of CommunityKC.org"/></a></p>
 
@@ -179,7 +187,7 @@ custom_js:
 
         <h3 style="padding-top: 1em; margin-top: 1em;"><a href="http://igotmineinkc.org/" target="_blank">I Got Mine in KC</a></h3>
 
-        <p><a href="http://igotmineinkc.org/" target="_blank"><img name="groups" class="featurette-image pull-left"
+        <p><a href="http://igotmineinkc.org/" target="_blank"><img style="width: 100%; max-width: 1000px;" name="groups" class="featurette-image pull-left"
                                                                  src="images/i-got-mine.gif"
                                                                  alt="Screen shot of I Got Mine in KC"/></a></p>
 
@@ -201,25 +209,10 @@ custom_js:
 					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fwww.meetup.com%2FKCBrigade%2Fevents%2Frss%2F&num=3&targ=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
 				</td>
 				<td style="width:50%">
-					<!--<script>
-						document.write('<div class="rss-box">');
-						document.write('<ul class="rss-items">');
-						var d1 = new Date();
-						d1 = new Date(d1.setDate(d1.getDate() + 1 - d1.getDay())); // +1 for Monday
-						document.write('<li class="rss-item">' + d1.toDateString() + '</li>')
-						var d2 = new Date();
-						d2 = new Date(d2.setDate(d2.getDate() + 7 + 1 - d2.getDay()));
-						document.write('<li class="rss-item">' + d2.toDateString() + '</li>')
-						var d3 = new Date();
-						d3 = new Date(d3.setDate(d3.getDate() + 14 + 1 - d2.getDay()));
-						document.write('<li class="rss-item">' + d3.toDateString() + '</li>')
-						document.write('</ul></div>');
-					</script>-->
-					
 					<script>
 						document.write('<div class="rss-box">');
 						var d1 = new Date();
-						d1 = new Date(d1.setDate(d1.getDate() + 1 - d1.getDay())); // +1 for Monday
+						d1 = new Date(d1.setDate(d1.getDate() + 1 - d1.getDay()));
 						document.write(d1.toDateString() + '<br/>')
 						var d2 = new Date();
 						d2 = new Date(d2.setDate(d2.getDate() + 7 + 1 - d2.getDay()));
@@ -232,16 +225,6 @@ custom_js:
 				</td>
 			</tr>
 		</table>
-
-
-
-
-
-        <!--<ul class="lead">
-<li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzpbxb/">RSVP</a> - November 18th, 6:00PM - Learn Night</li>
-<li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzpbhc/">RSVP</a> - November 25th, 6:00PM - Hack Night</li>
-<li><a target="_blank" href="https://www.meetup.com/KCBrigade/events/dbjpppyzqbdb/">RSVP</a> - December 2nd, 6:00PM - Pitch Night</li>
-        </ul>-->
 
         <!--<h1 class="index" style="text-align: center">Thanks to our Sponsors</h1>
 
