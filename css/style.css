@@ -470,3 +470,14 @@ tr td:first-child {
   align-content: flex-end;
 }
 
+/* PAGE HEADERS */
+
+.page-header {
+	height: 250px;
+	background-image: url(../images/header-bg/5.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	margin-bottom: 60px;
+	color: #fff;
+	position: relative;
+}
