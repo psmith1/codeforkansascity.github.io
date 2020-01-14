@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Code of Conduct
+excerpt: Keeping Code For Kansas City a safe and respectful environment
 ---
 Code for Kansas City's Code of Conduct
 --------------------------------------
@@ -7,7 +9,7 @@ The Kansas City Brigade is committed to providing a safe place for people to mee
 We’re operating under <a href="https://github.com/codeforamerica/codeofconduct">Code for America’s code of conduct</a> while we write our own.  
 Please send any comments and/or suggestions to <a href="mailto:pbarham@codeforamerica.org">pbarham@codeforamerica.org</a>
 
-####Code for America's Code of Conduct
+## Code for America's Code of Conduct
 
 The Code for America community expects that Code for America network activities and events:
 
@@ -26,7 +28,7 @@ The Code for America community expects that Code for America network activities 
 
 Code for America reserves the right to ask anyone in violation of these policies not to participate in Code for America events or network activities.
 
-####Code for America's Anti-Harassment Policy
+## Code for America's Anti-Harassment Policy
 
 This anti-harassment policy is based on <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">the example policy</a> from the Geek Feminism wiki, 
 created by the Ada Initiative and other volunteers.
@@ -69,7 +71,7 @@ However, we are hopeful that by providing these guidelines we are establishing a
 
 We value your attendance and hope that by communicating these expectations widely we can all enjoy a harassment-free environment.
 
-####Email Template for Anti-Harassment Reporting
+## Email Template for Anti-Harassment Reporting
 
 SUBJECT: Safe Space alert at [EVENT NAME]
 
