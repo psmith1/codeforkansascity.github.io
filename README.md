@@ -1,5 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/codeforkansascity/codeforkansascity.github.io.png?label=ready&title=Ready)](https://waffle.io/codeforkansascity/codeforkansascity.github.io)
-# code4hr.org
+# codeforkc.org
 
 The website for the Code for Kansas City Brigade
 
