@@ -33,7 +33,7 @@ Serve Your Community Through Civic Tech
 
 Code for Kansas City brings together developers, designers, data geeks, civic leaders, organizers, and idea-makers from communities to help local government and civic organizations adopt open web technologies.
 
-What is [Civic Hacking](https://www.youtube.com/watch?v=H_on0kXZ07M), this video will help explain it.
+What is [Civic Hacking](https://www.youtube.com/watch?v=H_on0kXZ07M)? This video will help explain it.
 
 ## Who This is For
 Anyone with a desire and a passion for applying their technology skills to improve our community, open government, and open civic data.
