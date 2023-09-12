@@ -24,16 +24,14 @@ email-contact: pbarham@codeforamerica.org
 contact-name: Paul Barham
 repo-issues-url: https://github.com/codeforkansascity/codeforkansascity.github.io/issues
 ---
-Welcome to {{page.local-chapter-name}} <br><small>A Code for America Brigade!</small>
+Welcome to {{page.local-chapter-name}} <br><small>A civic hacking group.</small>
 --------------------------------------------------------------------------------------
 
 
 Serve Your Community Through Civic Tech
 ---------------------------------------
 
-We are [{{page.local-chapter-name}}]({{page.homepage-url}}), the local chapter of Code for America Brigade supporting civic hacking in {{page.location}}.
-
-Code for America Brigade brings together developers, designers, data geeks, civic leaders, organizers, and idea-makers from communities to help local government and civic organizations adopt open web technologies. Code for America Brigade is the volunteer arm of the larger, national organization Code for America.
+Code for Kansas City brings together developers, designers, data geeks, civic leaders, organizers, and idea-makers from communities to help local government and civic organizations adopt open web technologies.
 
 What is [Civic Hacking](https://www.youtube.com/watch?v=H_on0kXZ07M), this video will help explain it.
 
@@ -44,12 +42,12 @@ Anyone with a desire and a passion for applying their technology skills to impro
 ## What to Expect
 You can apply your skills and expertise to work on an existing problem or project you care about like:
 
-* Improving park access
-* Helping the fire department locate fire hydrants
-* Launching a web app to find your city bus
+* Connecting people with still-good items to donation sites
+* Helping expunge misdemeanors and other crimes from crimnal records
+* Launching a web app to address illegal trash dumping
 * Creating an app to help residents find information about your city
-* Helping residents get up-to-date information on the status of blighted properties in their community
-* Creating an app that allows parents to track their child’s bus in real time
+* Helping residents get up-to-date information on government and city council meetings
+* Creating an online resource for reproductive health
 * Create apps. Design websites. Organize events. Write copy. And more!
 * Hang out with other civic hackers, eat pizza and drink beverages.
 
@@ -61,24 +59,12 @@ You can apply your skills and expertise to work on an existing problem or projec
 * You can learn a lot of things about coding and design by participating in Brigade but we are **not a code or design school**.
 
 
-## Who’s in Charge
-
-* Captain: Paul Barham
-* Brigade Evangelist:                     THEA RASINS
-* Delivery Lead/Data Co-Wrangler: DAVID LaCRONE
-* Developer Evangelist/Data Co-Wrangler: RON HOUSE
-* Developer Evangelist:                 JON KOHRS
-* Documentarian/Storyteller:         JASON HARPER
-* Policy Evangelist:  LESLIE SCOTT
-* User Experience Architect:         OLEH KOVALCHUKE
-
-
 ## How it Works
 
-We meet weekly, usually on Monday nights at the Sprint Accelerator, to either Hack (work on projects), Yack (socialize) or Learn (hear from a speaker).
+We meet weekly on Monday nights on Zoom, to either Hack (work on projects), Yack (socialize) or Learn (hear from a speaker).
 We use Meetup for organizing our events, so be sure to visit <a href="http://www.meetup.com/kcbrigade">meetup.com/kcbrigade</a> for the latest information.
 
-The format for Hack Nights:
+<!-- The format for Hack Nights:
 
 * 6:00 - Social / Introductions
 * 6:10 - New Member Orientation
@@ -86,16 +72,11 @@ The format for Hack Nights:
 * 6:30 - Work on projects
 * 7:00 - Pizza arrives
 * 7:45 - Wrap up - get project updates
-
+ -->
 
 ## Required Tools
 
 Bring your laptop/tablet as it's typically a working group with the occasional presentation.  Free wifi is provided.
-
-## How Decisions Are Made
-
-We use the [Lazy Consensus](http://rave.apache.org/docs/governance/lazyConsensus.html) model, meaning that if you think it's right for the group you have a green light, so **don't wait around for approval**. Concerns can be asked, but if you don't get much feedback that's a good thing and you can rock on.
-
 
 ## How Projects Are Chosen
 
@@ -107,20 +88,9 @@ We choose projects based on:
 
 * Things we like.
 
-## Current Projects
-
-Our projects are usually centered around software at some point.
-Those are all listed in our [GitHub Organization](https://github.com/codeforkansascity).
-There are also non-programming tasks in our "task list" at [http://codeforkc.org/tasks/](http://codeforkc.org/tasks/)
-
-
 ## Get Connected
 
-* Sign up on the Brigade web site: [http://brigade.codeforamerica.org](http://brigade.codeforamerica.org)
-
 * Join our Meetup: [{{page.meetup-url}}]({{page.meetup-url}})
-
-* Join our Google Group Forum: [{{page.google-group-url}}]({{page.google-group-url}})
 
 * Join our [Slack]({{page.slack-invite-url}})
 
@@ -133,21 +103,7 @@ There are also non-programming tasks in our "task list" at [http://codeforkc.org
 
 * Video of [The Typical Hack Night in Chicago](https://www.youtube.com/watch?v=H_on0kXZ07M)
 
-
-## Get Smart
-
-* [Brigade One-Pager](https://docs.google.com/document/d/1OY0s8BJR9A2aW1ivlNACTbi0dWOh9njYpHp53G1shFs/edit)
-
-* [Brigade Slide Deck](https://docs.google.com/presentation/d/1MSyVMauTv4HcPcgXmF2l-Afzjw35UfieCj5mKDK7fvY/edit#slide=id.p)
-
-* [Civic Hacking 101 Video](http://www.youtube.com/watch?v=wH6LnW_qjeI)
-
-* [How to Hack Night Video](http://www.youtube.com/watch?v=ge6AQVG36mQ)
-
-* [Do’s](http://www.codeforamerica.org/2013/01/23/do-this-lessons-from-brigade-year-one/) and [Dont’s](http://www.codeforamerica.org/2013/02/27/lessons-learned-from-brigade-year-one-dont-do-this/)
-
-
-## Get Started
+## Resources
 
 Often you can start getting involved before the first meeting.
 
@@ -189,10 +145,3 @@ Often you can start getting involved before the first meeting.
     * Free Heroku Hosting: [https://www.heroku.com/](https://www.heroku.com/)
     * Free Windows Azure Hosting: [http://www.windowsazure.com/en-us/](http://www.windowsazure.com/en-us/pricing/free-trial/)
     * Free Github Static Pages [http://pages.github.com/](http://pages.github.com/)
-
-
-## Code of Conduct
-Our [Code of Conduct](https://github.com/code4hr/codeofconduct)
-
-<h2 id="contact">Contact Us</h2>
-This sites creator was {{page.contact-name}}, but many others help to keep it awesome. You can file a issue/request in our [bug tracker]({{page.repo-issues-url}}), join our email group and discuss there, find us on twitter using [@codeforkc](https://twitter.com/codeforkc), or just email [{{page.email-contact}}](mailto:{{page.email-contact}})
