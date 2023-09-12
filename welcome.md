@@ -145,3 +145,7 @@ Often you can start getting involved before the first meeting.
     * Free Heroku Hosting: [https://www.heroku.com/](https://www.heroku.com/)
     * Free Windows Azure Hosting: [http://www.windowsazure.com/en-us/](http://www.windowsazure.com/en-us/pricing/free-trial/)
     * Free Github Static Pages [http://pages.github.com/](http://pages.github.com/)
+
+## Contact Us
+
+Questions? Send us an e-mail at [codeforkc@kcdigitaldrive.org](mailto:codeforkc@kcdigitaldrive.org) or [info@codeforkc.org](mailto:info@codeforkc.org).
